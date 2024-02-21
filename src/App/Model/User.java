@@ -12,6 +12,7 @@ public class User {
     public String getName() {
         return name;
     }
+
     public String getPhone() {
         return phone;
     }
