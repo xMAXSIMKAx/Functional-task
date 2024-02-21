@@ -31,7 +31,7 @@ public class UserView {
                     executeAction(new DisplayContactDetails(userController, scanner));
                     break;
                 case 3:
-                    executeAction((Consumer<Void>) new DisplayUsersList(userController));
+                    executeAction( new DisplayUsersList(userController));
                     break;
                 case 0:
                     System.out.println("Exiting program.");
